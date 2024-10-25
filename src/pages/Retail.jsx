@@ -2,7 +2,7 @@ import React from 'react'
 import ProductCard from '../components/ProductCard'
 import Images from '../components/Images'
 
-import logo from "../public/logo.png"
+import logo from "../public/images/tombstones/Double Tombstones Beige.jpg"
 
 const Retail = () => {
   /** Kitchen Designs(wooden cupboards, granite countertops)
