@@ -1,6 +1,6 @@
 import React from 'react'
 import ProductCard from '../components/ProductCard'
-//import Images from '../components/Images'
+import Images from '../components/Images'
 
 import logo from "../public/images/tombstones/Double Tombstones Beige.jpg"
 
@@ -55,7 +55,7 @@ const Retail = () => {
          */}
 
         <h1 className="text-3xl font-bold mb-8 text-primary text-center mt-8">Tombstones</h1>
-        <ProductCard images={tombstones} folder="tombstones" />
+        <ProductCard images={Images.tombstones} folder="tombstones" />
 
 
 
