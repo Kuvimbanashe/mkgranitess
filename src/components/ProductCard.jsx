@@ -13,13 +13,13 @@ const ProductCard = ({ images, folder }) => {
               
               <img
                 src={image}
-                alt={image ? image.split('images')[1] : 'Image'}
+                alt={image}
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="p-4">
               <h3 className="text-lg font-semibold">
-                {image ? image.split(`${folder}/`)[1].split('.')[0].replace(/%20/g, ' ') : 'Unknown Product'}
+                {image ? image.split('.')[0].replace(/%20/g, ' ') : 'Unknown Product'}
               </h3>
             </div>
           </div>
