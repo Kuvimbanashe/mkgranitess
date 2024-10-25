@@ -17,9 +17,9 @@ const Home =  () => {
       <AboutUs />
       <div className="container mx-auto mt-16 px-4">
         <h2 className="text-4xl font-bold mb-8 text-primary text-center">Featured Products</h2>
-        <div className="w-full">
+        {/* <div className="w-full">
           <ProductShowcase images={Images.featured} folder={'featured'} />
-        </div>
+        </div> */}
       </div>
       <Testimonials />
     </div>
