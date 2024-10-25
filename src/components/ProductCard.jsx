@@ -10,8 +10,9 @@ const ProductCard = ({ images, folder }) => {
         {images.map((image, index) => (
           <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-105">
             <div className="relative aspect-square">
+              
               <img
-                src={image}
+                src={image ? image.split('mkgranitess')[1] :""}
                 alt={image ? image.split('images')[1] : 'Image'}
                 className="w-full h-full object-cover"
               />
