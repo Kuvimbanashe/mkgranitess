@@ -19,7 +19,7 @@ const ProductCard = ({ images, folder }) => {
             </div>
             <div className="p-4">
               <h3 className="text-lg font-semibold">
-                {image ? image.split('.')[0].replace(/%20/g, ' ') : 'Unknown Product'}
+                {image ? image.split('assets/')[1].split('.')[0].replace(/%20/g, ' ').split('-'[0]) : 'Unknown Product'}
               </h3>
             </div>
           </div>
