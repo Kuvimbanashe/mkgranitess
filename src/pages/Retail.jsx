@@ -38,7 +38,7 @@ const Retail = () => {
         <h1 className="text-6xl font-bold mb-8 text-primary text-center">Retail Products</h1>
 
         <h1 className="text-3xl font-bold mb-8 text-primary text-center mt-8">Kitchen Designs</h1>
-        {/* <h1 className="text-3xl font-bold mb-8 text-primary text-center mt-8">Wooden Cupboards and Granite Countertops</h1>
+        <h1 className="text-3xl font-bold mb-8 text-primary text-center mt-8">Wooden Cupboards and Granite Countertops</h1>
         <ProductCard images={Images.granitekitchens} folder="granitekitchens" />
 
         <h1 className="text-3xl font-bold mb-8 text-primary text-center mt-8">Outdoor Braii Area</h1>
@@ -52,7 +52,7 @@ const Retail = () => {
         <h1 className="text-3xl font-bold mb-8 text-primary text-center mt-8">Tombstones</h1>
         <ProductCard images={Images.tombstones} folder="tombstones" />
 
-         */}
+        
 
         <h1 className="text-3xl font-bold mb-8 text-primary text-center mt-8">Tombstones</h1>
         <ProductCard images={Images.tombstones} folder="tombstones" />
