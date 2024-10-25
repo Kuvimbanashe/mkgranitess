@@ -11,12 +11,12 @@ const ProductShowcase = ({ images ,folder}) => {
             <div className="relative aspect-square">
               <img 
                 src={image} 
-                alt={image.split(folder)[1]} 
+                alt={image.split('assets/')[1].split('.jpg')[0].replace(/%20/g, ' ').split("-")[0]} 
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="p-4">
-              <h3 className="text-lg font-semibold">{image.split(`${folder}/`)[1].split('.jpg')[0].replace(/%20/g, ' ')}</h3>
+              <h3 className="text-lg font-semibold">{image.split('assets/')[1].split('.jpg')[0].replace(/%20/g, ' ').split("-")[0]}</h3>
             </div>
           </div>
         ))}

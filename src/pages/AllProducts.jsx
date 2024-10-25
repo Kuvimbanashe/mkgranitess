@@ -11,11 +11,11 @@ const AllProducts = () => {
         <h1 className="text-4xl font-bold mb-8 text-primary text-center">All Products</h1>
 
         <div className="">
-          {/* {allProducts.map((product,index) => (
+          {allProducts.map((product,index) => (
             <div key={index} className="bg-white ">
               <ProductCard images={product} folder={folder[index]} />
             </div>
-          ))} */}
+          ))}
         </div>
       </div>
     </div>

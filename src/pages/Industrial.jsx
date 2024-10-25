@@ -22,7 +22,7 @@ const Industrial = () => {
 
       
 
-        {/* <h1 className="text-4xl font-bold mb-8 text-primary text-center mt-8">Office Kitchens</h1> 
+       <h1 className="text-4xl font-bold mb-8 text-primary text-center mt-8">Office Kitchens</h1> 
        <ProductCard images={Images.kitchenette} folder="kitchenette" />
 
        <h1 className="text-4xl font-bold mb-8 text-primary text-center mt-8">Reception Counters</h1> 
@@ -35,7 +35,7 @@ const Industrial = () => {
        <ProductCard images={Images.coworkingdesks} folder="coworkingdesks" />
 
        <h1 className="text-4xl font-bold mb-8 text-primary text-center mt-8">Bathroom Counters</h1> 
-       <ProductCard images={Images.bathroomcounters} folder="bathroomcounters" /> */}
+       <ProductCard images={Images.bathroomcounters} folder="bathroomcounters" />
 
       </div>
     </div>
