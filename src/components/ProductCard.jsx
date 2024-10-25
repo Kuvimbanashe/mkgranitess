@@ -12,7 +12,7 @@ const ProductCard = ({ images, folder }) => {
             <div className="relative aspect-square">
               
               <img
-                src={image ? image.split('mkgranitess')[1] :""}
+                src={image}
                 alt={image ? image.split('images')[1] : 'Image'}
                 className="w-full h-full object-cover"
               />

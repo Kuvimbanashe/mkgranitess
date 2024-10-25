@@ -1,8 +1,28 @@
 import React from 'react'
 import ProductCard from '../components/ProductCard'
-import Images from '../components/Images'
+//import Images from '../components/Images'
 
 import logo from "../public/images/tombstones/Double Tombstones Beige.jpg"
+
+import DoubleTombstonesBeige from '../public/images/tombstones/Double Tombstones Beige.jpg'
+import DoubleTombstonesGrey from '../public/images/tombstones/Double Tombstones Grey.jpg'
+import DoubleTombstones from '../public/images/tombstones/Double Tombstones.jpg'
+import ForeverTombstone from '../public/images/tombstones/Forever Tombstone.jpg'
+import RespectTombstones from '../public/images/tombstones/Respect Tombstones.jpg'
+import RoyalTombstone from '../public/images/tombstones/Royal Tombstone.jpg'
+import SpecialTombstonesGrey from '../public/images/tombstones/Special Tombstones Grey.jpg'
+import SpecialTombstones from '../public/images/tombstones/special tombstones.jpg'
+import Tombostone1 from '../public/images/tombstones/Tombostone 1.jpeg'
+import Tombstone3 from '../public/images/tombstones/Tombstone 3.jpeg'
+import Tombstone4 from '../public/images/tombstones/Tombstone 4.jpeg'
+import Tombstone5 from '../public/images/tombstones/Tombstone 5.jpeg'
+import Tombstone6 from '../public/images/tombstones/Tombstone 6.jpeg'
+import Tombstone from '../public/images/tombstones/tombstone.png'
+import Tombstones2 from '../public/images/tombstones/Tombstones 2.jpeg'
+import Tombstones from '../public/images/tombstones/Tombstones.jpeg'
+
+const tombstones = [DoubleTombstonesBeige, DoubleTombstonesGrey, DoubleTombstones, ForeverTombstone, RespectTombstones, RoyalTombstone, SpecialTombstonesGrey, SpecialTombstones, Tombostone1, Tombstone3, Tombstone4, Tombstone5, Tombstone6, Tombstone, Tombstones2, Tombstones]
+
 
 const Retail = () => {
   /** Kitchen Designs(wooden cupboards, granite countertops)
@@ -32,10 +52,11 @@ const Retail = () => {
         <h1 className="text-3xl font-bold mb-8 text-primary text-center mt-8">Tombstones</h1>
         <ProductCard images={Images.tombstones} folder="tombstones" />
 
-        <h1 className="text-3xl font-bold mb-8 text-primary text-center mt-8">Tombstones</h1>
-        <ProductCard images={Images.tombstones} folder="tombstones" /> */}
+         */}
 
-        <img src={`/Double Tombstones Beige.jpg/g`}/>
+        <h1 className="text-3xl font-bold mb-8 text-primary text-center mt-8">Tombstones</h1>
+        <ProductCard images={tombstones} folder="tombstones" />
+
 
 
       </div>

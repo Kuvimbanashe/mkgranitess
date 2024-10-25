@@ -120,12 +120,6 @@ import WhiteReceptionCounter from '../public/images/receptiondesks/White Recepti
 const receptiondesks = [CustomReceptionDesk, InteriorComercialReception, LShapedFrontCounter, LEDReceptionDesk, ModernDesignReception, OakReceptionDesk, ReceptionDesk, WhiteReceptionCounter]
 
 //
-const tombstonesArray =[
-    'src/public/images/tombstones/Double Tombstones Beige.jpg',
-    'src/public/images/tombstones/Double Tombstones Grey.jpg',
-    'src/public/images/tombstones/Double Tombstones.jpg'
-
-]
 import DoubleTombstonesBeige from '../public/images/tombstones/Double Tombstones Beige.jpg'
 import DoubleTombstonesGrey from '../public/images/tombstones/Double Tombstones Grey.jpg'
 import DoubleTombstones from '../public/images/tombstones/Double Tombstones.jpg'
@@ -150,7 +144,7 @@ const Images = {bathroomcounters,
     braai, cafetaria,
      coffeetables, coworkingdesks,
       featured, granitekitchens, 
-      kitchenette, receptiondesks, tombstones, tombstonesArray}
+      kitchenette, receptiondesks, tombstones}
 
 export default Images
 
