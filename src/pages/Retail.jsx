@@ -2,6 +2,8 @@ import React from 'react'
 import ProductCard from '../components/ProductCard'
 import Images from '../components/Images'
 
+import logo from "../public/logo.png"
+
 const Retail = () => {
   /** Kitchen Designs(wooden cupboards, granite countertops)
    *Outdoor Braii Area
@@ -33,7 +35,7 @@ const Retail = () => {
         <h1 className="text-3xl font-bold mb-8 text-primary text-center mt-8">Tombstones</h1>
         <ProductCard images={Images.tombstones} folder="tombstones" /> */}
 
-        <img src='../src/public/images/tombstones/Double Tombstones.jpg'/>
+        <img src={logo}/>
 
 
       </div>
