@@ -9,7 +9,7 @@ import Retail from './pages/Retail'
 import Industrial from './pages/Industrial'
 import AllProducts from './pages/AllProducts'
 import WhatsAppChat from './components/WhatsAppChat'
-import ViewImages from './components/ViewImages'
+
 
 
 function ScrollToTop() {
@@ -37,7 +37,7 @@ function App() {
             <Route path="/retail" element={<Retail />} />
             <Route path="/industrial" element={<Industrial />} />
             <Route path="/all-products" element={<AllProducts />} />
-            <Route path="/view-images" element={<ViewImages />} />
+            
           </Routes>
         </main>
         <Footer />
