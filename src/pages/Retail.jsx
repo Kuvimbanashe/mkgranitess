@@ -28,10 +28,12 @@ const Retail = () => {
         <ProductCard images={Images.benchesandtables} folder="benchesandtables" />
 
         <h1 className="text-3xl font-bold mb-8 text-primary text-center mt-8">Tombstones</h1>
-        <ProductCard images={Images.tombstones} folder="tombstones" /> */}
+        <ProductCard images={Images.tombstones} folder="tombstones" />
 
         <h1 className="text-3xl font-bold mb-8 text-primary text-center mt-8">Tombstones</h1>
-        <ProductCard images={Images.tombstones} folder="tombstones" />
+        <ProductCard images={Images.tombstones} folder="tombstones" /> */}
+
+        <img src='src/public/images/tombstones/Double Tombstones.jpg'/>
 
 
       </div>
